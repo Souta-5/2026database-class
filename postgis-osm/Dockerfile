@@ -4,6 +4,7 @@ RUN apt-get update \
     && apt-get -y install --no-install-recommends \
     postgresql-16 \
     postgresql-16-postgis-3 \
+    postgis \
     unzip \
     curl \
     wget \
